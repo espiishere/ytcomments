@@ -11,13 +11,13 @@
     {
       'name': 'user1832',
       'pic': 'Logo1.png',
-      'message': 'Wow what an ending',
+      'message': 'Interesting',
       'date': '2021-01-01 12:00:00'
     },
     {
       'name': 'TomiGosi',
       'pic': 'Logo1.png',
-      'message': 'Rigged',
+      'message': 'I miss ESPN',
       'date': '2021-01-01 12:00:00'
     },
     {
@@ -32,13 +32,13 @@
     {
       'name': 'Morrimojo',
       'pic': 'Logo1.png',
-      'message': 'Cool Vid!',
+      'message': 'Great video!',
       'date': '2021-01-01 12:00:00'
     },
     {
       'name': 'user1832',
       'pic': 'Logo1.png',
-      'message': 'Wow what an ending',
+      'message': "Can't wait for next year!",
       'date': '2021-01-01 12:00:00'
     },
     {
@@ -69,9 +69,9 @@
       'date': '2021-01-01 12:00:00'
     },
     {
-      'name': 'TomiGosi',
+      'name': 'ElRyo',
       'pic': 'Logo1.png',
-      'message': 'Rigged',
+      'message': 'Phoniex is better',
       'date': '2021-01-01 12:00:00'
     },
     {

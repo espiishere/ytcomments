@@ -1,16 +1,7 @@
 # ytcomments
 
-A new Flutter project.
+Flutter Internship Project by Matthew Moyer.
 
-## Getting Started
+While it can run on mobile devices, for the best experience please run it on Flutter Web, This can be done in the console by entering flutter run -d chrome --web-renderer html or Edge
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

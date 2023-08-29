@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'profile.dart';
+import 'package:ytcomments/playlist.dart';
+import 'package:ytcomments/playlistDemo.dart';
+
+
+import "user.dart";
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +22,7 @@ class MyApp extends StatelessWidget {
       title: 'IV Video',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.green, //Use for Swatches
+        primarySwatch: Colors.red, //Use for Swatches
         // Color(0xFF10BE90),
       ),
       home: const RootPage(),
@@ -36,7 +40,7 @@ class RootPage extends StatefulWidget {
 //----------------------------------------------------------------------------------
 class _RootPageState extends State<RootPage> {
   int currentPage = 0;
-  List<Widget> pages = const [ProfilePage()];
+  List<Widget> pages = const [UserPage(), PlaylistPage(), PlaylistPageX(), ];
 
   @override
   void initState() {
@@ -62,19 +66,9 @@ class _RootPageState extends State<RootPage> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        
-        backgroundColor: Colors.red,
-        leading: ClipRRect(
-          borderRadius: BorderRadius.circular(8),
-          child: Image.asset(
-            'Logo1.png',
-            width: 300,
-            height: 200,
-            fit: BoxFit.cover,
-          ),
-        ),
-      ),
+     
+      
+      
       body: pages[currentPage],
 
       //                Section needed for later... Maybe
